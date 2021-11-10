@@ -1,0 +1,101 @@
+.featured{
+    height: 80vh;
+}
+
+.featured-vertical{
+    width:inherit;
+    height:inherit;
+    background : linear-gradient(to top , #141414 2%, transparent 98%);
+}
+.featured-horizontal{
+    width:inherit;
+    height:inherit;
+    background : linear-gradient(to right , #141414 20%, transparent 80%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+    padding-left: 3%;
+    padding-bottom: 150px;
+}
+.featured-name{
+    font : 60px bold;
+    max-width: 35%;
+}
+.featured-info{
+    font:  18px bold ;
+    margin-top:15px;
+}
+.featured-year, .featured-points, .featured-season{
+    display:inline-block;
+    margin-right: 1.5%;
+}
+.featured-points{
+    color: #46d369;
+}
+.featured-overview{
+    color: #fff;
+    font-weight: 400;
+    line-height: normal;
+    max-width:35%;
+    margin-top: 1%;
+    font-size: 1.4vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%)
+}
+.featured-buttons{
+    margin: 1% 2% 1% 0;
+}
+.featured-genres{
+    margin: top 1%;
+    font:18px;
+    color: #999;
+
+}
+.info-button, .watch-button{
+    display: inline-block;
+    font: 20px;
+    font-weight: bold;
+    margin: 0 2% 0 0 ;
+    padding: 1% 2%;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 1;
+    transition: all ease 0.1s;
+
+}
+.watch-button{
+    background-color: #FFFF;
+    color:#141414;
+}
+.info-button{
+    background-color: rgba(153, 153, 153, 0.60);
+    color: #FFFF;
+}
+.info-button:hover, .watch-button:hover {
+    background-color: rgba(153, 153, 153, 0.35);
+}
+
+@media(max-width: 700px){
+    .featured{
+        height:80vh;
+    }
+    .featured-name{
+        font-size:40px;
+    }
+    .featured-info{
+        font-size:16px;
+    }
+    .featured-overview{
+        font-size:14px;
+        max-width:100%;
+        margin-right: 3%;
+    }
+    .info-button, .watch-button {
+        font-size:16px;
+
+    }
+    .featured-genres{
+        font: size 14px;
+    }
+
+}
