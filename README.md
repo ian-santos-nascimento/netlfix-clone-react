@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# NETFLIX CLONE WITH REACT
+![Captura de tela 2021-11-10 185217](https://user-images.githubusercontent.com/83103221/141206708-c19b40a3-02a9-4892-9166-4ce9ede19f02.png)
+
 
 This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
