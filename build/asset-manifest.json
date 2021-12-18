@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/netlfix-clone-react/static/css/main.68fcb966.chunk.css",
+    "main.js": "/netlfix-clone-react/static/js/main.40c95bc9.chunk.js",
+    "main.js.map": "/netlfix-clone-react/static/js/main.40c95bc9.chunk.js.map",
+    "runtime-main.js": "/netlfix-clone-react/static/js/runtime-main.f7af0f03.js",
+    "runtime-main.js.map": "/netlfix-clone-react/static/js/runtime-main.f7af0f03.js.map",
+    "static/js/2.13f547ef.chunk.js": "/netlfix-clone-react/static/js/2.13f547ef.chunk.js",
+    "static/js/2.13f547ef.chunk.js.map": "/netlfix-clone-react/static/js/2.13f547ef.chunk.js.map",
+    "index.html": "/netlfix-clone-react/index.html",
+    "precache-manifest.5b45016dc8873b8cbadc113c767ce89b.js": "/netlfix-clone-react/precache-manifest.5b45016dc8873b8cbadc113c767ce89b.js",
+    "service-worker.js": "/netlfix-clone-react/service-worker.js",
+    "static/css/main.68fcb966.chunk.css.map": "/netlfix-clone-react/static/css/main.68fcb966.chunk.css.map",
+    "static/js/2.13f547ef.chunk.js.LICENSE.txt": "/netlfix-clone-react/static/js/2.13f547ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7af0f03.js",
+    "static/js/2.13f547ef.chunk.js",
+    "static/css/main.68fcb966.chunk.css",
+    "static/js/main.40c95bc9.chunk.js"
+  ]
+}
