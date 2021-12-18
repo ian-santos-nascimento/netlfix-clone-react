@@ -9,11 +9,12 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
+    background: linear-gradient(to top , transparent 80%, #141414 10%);
     transition:all ease 0.5s;
 } 
 header.black {
     background-color: #141414;
+    background:transparent;
 }
 .header-logo{
     height: 30px;
@@ -26,4 +27,22 @@ header.black {
 .header-logo img, .header-user img{
     height: 100%;
     border-radius: 3px;
+}
+
+.header-options{
+    display:flex;
+    justify-content:start !important;
+    align-items: flex-start;
+    margin-left:0;
+}
+
+.header-options li {
+    display:inline;
+    padding-right: 10%;
+    margin-right: 3%;
+    list-style: none;
+}
+
+.header-options ul{
+    left:0;
 }

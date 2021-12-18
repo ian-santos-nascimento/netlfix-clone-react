@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Films from "./Tmdb";
+import Films from "./components/Tmdb/Tmdb";
 import "./App.css";
-import MovieRow from './components/MovieRow';
-import ContrastedMovie from "./components/ContrastedMovie";
+import MovieRow from './components/MovieRow/MovieRow';
+import ContrastedMovie from "./components/ContrastedMovie/ContrastedMovie";
 import Header from "./components/Header/Header";
 
 const Films_section = () => {
@@ -20,7 +20,7 @@ const Films_section = () => {
 			let posterFilmes = list.filter( films => films.slug === 'originals');
 			let randomFilm =Math.floor(Math.random() * (posterFilmes[0].items.results.length -1))
 			let chosenFilm = posterFilmes[0].items.results[randomFilm];
-			let allInfoFromChosen = await Films.getMovieInfo(chosenFilm.id, "movie");
+			let allInfoFromChosen = await Films.getMovieInfo(chosenFilm.id, "tv");
 			setContrastedMovie(allInfoFromChosen);
 		}
 
@@ -44,7 +44,7 @@ const Films_section = () => {
 
 	return (
 		<div className="page">
-			{moviesList.length <= 0 &&
+			{moviesList.length <= 3 &&
 			<div className="loading">
 				<img id="loading-img" src="https://c.tenor.com/DQyztbEmqnYAAAAC/netflix-loading.gif" alt="Netlfix"/>
 			</div>
